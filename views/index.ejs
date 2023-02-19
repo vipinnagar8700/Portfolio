@@ -87,9 +87,8 @@
 								class="icon-heart" aria-hidden="true"></i> by <a href="Algoblend.in"
 								target="_blank">Algoblend.in</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							</span> <span>Distributed by <a href="Algoblend.in"
-									target="_blank">Vipin Nagar</a></span> <span>Demo Images: <a
-									href="https://unsplash.com/" target="_blank">Unsplash.com</a></span>
+							</span> <span>Distributed by <a href="Algoblend.in" target="_blank">Vipin Nagar</a></span>
+							<span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span>
 						</small></p>
 					<ul>
 						<li><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -100,10 +99,11 @@
 				</div>
 
 			</aside>
-			<%- include('home') %>
-			<%- include('about') %>
-			<%- include('services') %>
+
 			<div id="colorlib-main">
+				<%- include('home') %>
+				<%- include('about') %>
+				<%- include('services') %>
 				<div id="colorlib-counter" class="colorlib-counters"
 					style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
 					<div class="overlay"></div>
@@ -135,11 +135,11 @@
 					</div>
 				</div>
 				<%- include('skills') %>
-				<%- include('education') %>
-				<%- include('experience') %>
-				<%- include('work') %>
-				<%- include('blog') %>
-				<%- include('contact') %>
+					<%- include('education') %>
+						<%- include('experience') %>
+							<%- include('work') %>
+								<%- include('blog') %>
+									<%- include('contact') %>
 
 
 			</div><!-- end:colorlib-main -->
