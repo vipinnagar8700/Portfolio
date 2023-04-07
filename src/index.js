@@ -6,10 +6,11 @@ app.use(express.static('public'))
 
 // app.get('/', (req, res) => res.send('Hello World'));
 
-app.get('/', function(req, res) {
-res.render('index');
-});
 
+
+app.get('/home', function (req, res) {
+  res.render('index');
+});
 
 app.listen(8080, function () {
   console.log("Server is running on port 8080 ");

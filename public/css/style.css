@@ -559,7 +559,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #04FDB7; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
     background: #f9bf3f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
@@ -633,9 +633,9 @@ body.offcanvas {
     font-size: 16px;
     font-weight: 500; }
   .services.color-2 {
-    border-bottom: 2px solid #ec5453; }
+    border-bottom: 2px solid #04FDB7; }
     .services.color-2 .icon2 i {
-      color: #ec5453; }
+      color: #04FDB7; }
   .services.color-3 {
     border-bottom: 2px solid #f9bf3f; }
     .services.color-3 .icon2 i {
@@ -698,11 +698,11 @@ body.offcanvas {
       font-weight: 700;
       text-transform: uppercase; }
   .services.color-2 .icon {
-    background: #ec5453; }
+    background: #04FDB7; }
     .services.color-2 .icon:before {
-      border-color: transparent transparent #ec5453 transparent; }
+      border-color: transparent transparent #04FDB7 transparent; }
     .services.color-2 .icon:after {
-      border-color: #ec5453 transparent transparent transparent; }
+      border-color: #04FDB7 transparent transparent transparent; }
   .services.color-3 .icon {
     background: #f9bf3f; }
     .services.color-3 .icon:before {
@@ -778,11 +778,11 @@ body.offcanvas {
     .progress-bar.color-1 span {
       color: #2c98f0; }
   .progress-bar.color-2 {
-    background: #ec5453; }
+    background: #04FDB7; }
     .progress-bar.color-2:after {
-      background: #ec5453; }
+      background: #04FDB7; }
     .progress-bar.color-2 span {
-      color: #ec5453; }
+      color: #04FDB7; }
   .progress-bar.color-3 {
     background: #f9bf3f; }
     .progress-bar.color-3:after {
